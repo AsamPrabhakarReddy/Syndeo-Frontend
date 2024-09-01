@@ -1,15 +1,16 @@
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  plugins: [react()],
   build: {
+    outDir: 'dist', // Ensure this matches the directory you're deploying from
     rollupOptions: {
-      output: {
-        manualChunks: undefined,  // This setting can help if chunking is causing issues
-      }
+      // Additional configuration
     },
-    // Additional build options can go here
+    sourcemap: false, // Disable sourcemaps if not needed, to reduce build time
   },
-  esbuild: {
-    keepNames: true,  // This might help prevent eval errors with specific libraries
-  }
+  optimizeDeps: {
+    include: ['lottie-web'], // Include specific libraries to optimize their loading
+  },
 });
