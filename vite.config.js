@@ -1,7 +1,15 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 
-      export default defineConfig({
-    plugins: [react()],
-    base: './', // Adjust if needed
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,  // This setting can help if chunking is causing issues
+      }
+    },
+    // Additional build options can go here
+  },
+  esbuild: {
+    keepNames: true,  // This might help prevent eval errors with specific libraries
+  }
 });
