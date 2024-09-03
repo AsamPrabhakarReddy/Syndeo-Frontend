@@ -1,16 +1,16 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
-export default defineConfig({
-  plugins: [react()],
+// vite.config.js
+export default {
   build: {
-    outDir: 'dist', // Ensure this matches the directory you're deploying from
+    target: 'esnext',
+    minify: 'esbuild',
     rollupOptions: {
-      // Additional configuration
+      // other rollup options
     },
-    sourcemap: false, // Disable sourcemaps if not needed, to reduce build time
+    esbuild: {
+      // Options to optimize memory usage
+      minify: true,
+      legalComments: 'none',
+      target: 'es2015',
+    },
   },
-  optimizeDeps: {
-    include: ['lottie-web'], // Include specific libraries to optimize their loading
-  },
-});
+};
