@@ -1,13 +1,13 @@
 import { useState } from "react";
 import axios from "axios";
-import { showLoading, hideLoading } from "../redux/features/alertSlice";
+// import { showLoading, hideLoading } from "../redux/features/alertSlice";
 import Swal from "sweetalert2";
 import { useDispatch } from "react-redux";
 import { MdOutlineCancel } from "react-icons/md";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-const UserBooking = (props) => {
+const UserBooking = () => {
   const dispatch = useDispatch();
   const params = useParams();
   const [userFirstName, setUserFirstName] = useState("");
