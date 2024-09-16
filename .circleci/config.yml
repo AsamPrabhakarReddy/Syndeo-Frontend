@@ -7,11 +7,20 @@ jobs:
     steps:
       - checkout
       - run:
+          name: Print Working Directory
+          command: pwd
+      - run:
+          name: List Files
+          command: ls -la
+      - run:
           name: Install Dependencies
           command: npm install
       - run:
+          name: Check Vitest Installation
+          command: npx vitest --version
+      - run:
           name: Run Tests
-          command: npx vitest run || { echo 'Tests failed'; exit 1; }
+          command: npx vitest run --logLevel=debug || { echo 'Tests failed'; exit 1; }
       - run:
           name: Build the App
           command: npm run build
