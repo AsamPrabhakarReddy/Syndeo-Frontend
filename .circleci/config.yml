@@ -20,7 +20,7 @@ jobs:
           command: npx vitest --version
       - run:
           name: Run Tests
-          command: npx vitest run --logLevel=debug || { echo 'Tests failed'; exit 1; }
+          command: npm run test
       - run:
           name: Build the App
           command: npm run build
