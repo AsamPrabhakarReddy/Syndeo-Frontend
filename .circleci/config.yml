@@ -11,7 +11,7 @@ jobs:
           command: npm install
       - run:
           name: Run Tests
-          command: npm run test
+          command: npx vitest run
       - run:
           name: Build the App
           command: npm run build
