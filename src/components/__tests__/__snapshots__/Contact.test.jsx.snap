@@ -1,0 +1,715 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Contact Component > should render Navbar, Contact Form, and Footer 1`] = `
+<div>
+  <div
+    className="w-full fixed  md:z-20 z-20 bg-white"
+  >
+    <div
+      className="w-full mx-auto max-w-[1400px]"
+    >
+      <div
+        className="justify-center w-full "
+      >
+        <div
+          className="text-black flex justify-between md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto"
+        >
+          <div
+            className="flex justify-center items-center"
+          >
+            <div
+              className=" text-[30px] block ml-4"
+            >
+              <h2
+                className="text-colorFour font-bold"
+              >
+                SYNDÈO.
+              </h2>
+            </div>
+          </div>
+          <ul
+            className="hidden md:flex md:pt-4 "
+          >
+            <li
+              className="lg:p-4 group p-[11px] cursor-pointer text-colorFour font-semibold text-base tracking-wider transition duration-1000 "
+            >
+              <a
+                href="/"
+              >
+                Home
+              </a>
+              <div
+                className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"
+              />
+            </li>
+            <li
+              className="lg:p-4 p-[11px] group cursor-pointer text-colorFour font-semibold text-base tracking-wider transition duration-1000 "
+            >
+              <a
+                href="/about"
+              >
+                About Us
+              </a>
+              <div
+                className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"
+              />
+            </li>
+            <li
+              className="lg:p-4 p-[11px] group cursor-pointer text-colorFour font-semibold text-base tracking-wider transition duration-1000 "
+            >
+              <a
+                href="/contact"
+              >
+                Contact
+              </a>
+              <div
+                className="bg-colorFour h-[2px] w-0 group-hover:w-full transition-all duration-500"
+              />
+            </li>
+            <li
+              className="lg:p-4 p-[11px] cursor-pointer font-medium"
+            >
+              <a
+                className="bg-colorFour hover:bg-colorFour transition ease-in-out duration-1000
+        rounded-3xl text-white px-8 py-2.5 text-center font-semibold"
+                href="/login"
+              >
+                Login / Register
+                 
+              </a>
+            </li>
+          </ul>
+          <div
+            className="block md:hidden cursor-pointer"
+            onClick={[Function]}
+          >
+            <svg
+              className=" mr-4 mt-6"
+              fill="currentColor"
+              height={30}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                {
+                  "color": undefined,
+                }
+              }
+              viewBox="0 0 1024 1024"
+              width={30}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+              />
+            </svg>
+          </div>
+          <div
+            className="md:hidden fixed left-[-100%] h-[75%] ease-in-out duration-1000 "
+          >
+            <h1
+              className="w-full text-2xl text-colorFour font-bold m-4 cursor-pointer"
+            >
+              SYNDÈO.
+            </h1>
+            <ul
+              className=" uppercase p-4"
+            >
+              <li
+                className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white"
+              >
+                <a
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li
+                className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white"
+              >
+                <a
+                  href="/about"
+                >
+                  About Us
+                </a>
+              </li>
+              <li
+                className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white"
+              >
+                <a
+                  href="/contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li
+                className="p-4 text-colorThree cursor-pointer font-medium dark:text-white"
+              >
+                <a
+                  href="/login"
+                >
+                  Login / Register
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="bg-white"
+  >
+    <div
+      className="relative pt-24 pb-8"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="w-full px-4 mx-auto max-w-[1400px]"
+        >
+          <div
+            className="grid md:grid-cols-2 grid-cols-1 gap-4"
+          >
+            <div>
+              <div
+                className="flex flex-col space-y-4 mt-8"
+              >
+                <div>
+                  <h1
+                    className="uppercase font-bold text-colorFour tracking-wide"
+                  >
+                    get in touch
+                  </h1>
+                </div>
+                <div>
+                  <h1
+                    className="lg:text-5xl text-4xl font-bold tracking-normal md:leading-relaxed leading-normal text-colorThree"
+                  >
+                    Motivated to make a better future, connect to us through this form.
+                  </h1>
+                </div>
+                <div>
+                  <h1
+                    className="leading-relaxed tracking-wide font-medium lg:text-[20px] text-[16px] text-gray-600 dark:text-gray-800 "
+                  >
+                    We craft beautiful and unique digital experiences. With a better industy knowledge and expertise, we design and code clean websites and apps!
+                  </h1>
+                </div>
+                <div>
+                  <ul
+                    className="space-y-4 text-colorTwo font-semibold leading-relaxed tracking-wide flex flex-col list-disc md:mx-4 mx-8"
+                  >
+                    <li>
+                      99% successful appointment scheduling through our syndèo.
+                    </li>
+                    <li>
+                      4.8 / 5 Excellent Ratings From clients and customers.
+                    </li>
+                    <li>
+                      Thousands of meetings scheduled through syndèo platform.
+                    </li>
+                    <li>
+                      Services available across all the countries of the globe.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div>
+              <form
+                action=""
+                className="mt-8"
+                method="POST"
+              >
+                <div
+                  className="w-full flex justify-center items-center"
+                >
+                  <div
+                    className="mb-5 md:w-10/12 w-full"
+                  >
+                    <label
+                      className="mb-3 block text-base font-medium text-[#07074D]"
+                      htmlFor="email"
+                    >
+                      Full Name
+                    </label>
+                    <input
+                      className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
+                      id="name"
+                      name="name"
+                      placeholder="Your Full Name"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="w-full flex justify-center items-center"
+                >
+                  <div
+                    className="mb-5 md:w-10/12 w-full"
+                  >
+                    <label
+                      className="mb-3 block text-base font-medium text-[#07074D]"
+                      htmlFor="email"
+                    >
+                      Email Address
+                    </label>
+                    <input
+                      className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
+                      id="email"
+                      name="email"
+                      placeholder="example@domain.com"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="w-full flex justify-center items-center"
+                >
+                  <div
+                    className="mb-5 md:w-10/12 w-full"
+                  >
+                    <label
+                      className="mb-3 block text-base font-medium text-[#07074D]"
+                      htmlFor="subject"
+                    >
+                      Subject
+                    </label>
+                    <input
+                      className="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:shadow-md"
+                      id="subject"
+                      name="subject"
+                      placeholder="Enter your subject"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="w-full flex justify-center items-center"
+                >
+                  <div
+                    className="mb-5 md:w-10/12 w-full"
+                  >
+                    <label
+                      className="mb-3 block text-base font-medium text-[#07074D]"
+                      htmlFor="message"
+                    >
+                      Message
+                    </label>
+                    <textarea
+                      className="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none  focus:shadow-md"
+                      id="message"
+                      name="message"
+                      placeholder="Type your message"
+                      rows="4"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="w-full flex justify-center items-center"
+                >
+                  <div
+                    className="mb-5 md:w-8/12 w-full"
+                  >
+                    <button
+                      className="hover:shadow-form rounded-3xl bg-colorFour hover:bg-colorFour transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-white outline-none"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="bg-footer"
+    data-testid="footer"
+  >
+    <footer
+      className="text-base"
+    >
+      <div
+        className="w-full max-w-screen px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8"
+      >
+        <div
+          className="pb-8 mb-8 border-b border-gray-200"
+        >
+          <div
+            className="grid grid-cols-2 md:grid-cols-5 "
+          >
+            <div
+              className="mb-12 md:mb-0 "
+            >
+              <h4
+                className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white"
+              >
+                Services
+              </h4>
+              <ul
+                className="pl-0 mt-4 space-y-3 list-none"
+              >
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/"
+                  >
+                    Customer Success
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/"
+                  >
+                    Popular Blogs
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/login"
+                  >
+                    Log In to Syndèo
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/"
+                  >
+                    Appointment Booking
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/privacy"
+                  >
+                    Developer Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="mb-12 md:mb-0 "
+            >
+              <h4
+                className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white"
+              >
+                Connect
+              </h4>
+              <ul
+                className="pl-0 mt-4 space-y-3 list-none"
+              >
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/contact"
+                  >
+                    Help Center
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/"
+                  >
+                    Syndèo Careers
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/"
+                  >
+                    Become Partner
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/register"
+                  >
+                    Sign Up Here
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/about"
+                  >
+                    Team & Company
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="mb-12 md:mb-0"
+            >
+              <h4
+                className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white"
+              >
+                Company
+              </h4>
+              <ul
+                className="pl-0 mt-4 space-y-3 list-none"
+              >
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/privacy"
+                  >
+                    Terms & Conditions
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/privacy"
+                  >
+                    Privacy Policy
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/about"
+                  >
+                    About Syndèo
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/contact"
+                  >
+                    Contact Us
+                  </a>
+                </li>
+                <li
+                  className=" flex items-center justify-center"
+                >
+                  <a
+                    className="no-underline text-[14px] leading-6 text-footerLinks hover:text-white transition duration-1000 ease-in-out"
+                    href="/about"
+                  >
+                    Why Syndèo?
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="mb-12 md:mb-0 col-span-2"
+            >
+              <h4
+                className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white"
+              >
+                Contact Us
+              </h4>
+              <form
+                action=""
+              >
+                <div
+                  className="mt-4 flex flex-col justify-center items-center"
+                >
+                  <div
+                    className=" flex justify-center items-center w-full"
+                  >
+                    <input
+                      className=" appearance-none flex md:w-9/12 w-10/12 border border-transparent px-5 py-3 text-base leading-6 rounded-md text-gray-800 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
+                      name="email"
+                      placeholder="Enter your email"
+                      required={true}
+                      type="email"
+                    />
+                  </div>
+                  <div
+                    className="mt-4 mb-2 rounded-md flex w-full justify-center items-center"
+                  >
+                    <button
+                      className="md:w-9/12 w-10/12 flex items-center justify-center px-5 py-3 text-base leading-6 font-medium rounded-md text-white bg-colorFour hover:bg-colorFour focus:outline-none focus:bg-green-200 transition duration-1000 ease-in-out"
+                      type="submit"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div
+          className="grid grid-cols-1 md:grid-cols-2"
+        >
+          <div
+            className="grid grid-cols-5 justify-center items-center place-items-center"
+          >
+            <a
+              href="/about"
+            >
+              <svg
+                className="cursor-pointer"
+                color="white"
+                fill="currentColor"
+                height={25}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  {
+                    "color": "white",
+                  }
+                }
+                viewBox="0 0 448 512"
+                width={25}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                />
+              </svg>
+            </a>
+            <a
+              href="/about"
+            >
+              <svg
+                className="cursor-pointer"
+                color="white"
+                fill="currentColor"
+                height={25}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  {
+                    "color": "white",
+                  }
+                }
+                viewBox="0 0 448 512"
+                width={25}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </a>
+            <a
+              href="/about"
+            >
+              <svg
+                className="cursor-pointer"
+                color="white"
+                fill="currentColor"
+                height={25}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  {
+                    "color": "white",
+                  }
+                }
+                viewBox="0 0 512 512"
+                width={25}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+                />
+              </svg>
+            </a>
+            <a
+              href="/about"
+            >
+              <svg
+                className="cursor-pointer"
+                color="white"
+                fill="currentColor"
+                height={25}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  {
+                    "color": "white",
+                  }
+                }
+                viewBox="0 0 512 512"
+                width={25}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                />
+              </svg>
+            </a>
+            <a
+              href="/about"
+            >
+              <svg
+                className="cursor-pointer"
+                color="white"
+                fill="currentColor"
+                height={25}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  {
+                    "color": "white",
+                  }
+                }
+                viewBox="0 0 488 512"
+                width={25}
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div
+            className="flex justify-center items-center"
+          >
+            <p
+              className="md:text-sm text-xs text-white"
+            >
+              Copyright © 2024 Syndèo. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

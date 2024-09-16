@@ -1,6 +1,9 @@
 const ContactOne = () => {
+  const handleSubmit = (event)=>{
+    event.preventDefault();
+  }
   return (
-    <div className="bg-white">
+    <div role="contact" className="bg-white">
       <div className="relative pt-24 pb-8">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -8,7 +11,7 @@ const ContactOne = () => {
               <div>
                 <div className="flex flex-col space-y-4 mt-8">
                   <div>
-                    <h1 className="uppercase font-bold text-colorFour tracking-wide">
+                    <h1  className="uppercase font-bold text-colorFour tracking-wide">
                       get in touch
                     </h1>
                   </div>
@@ -47,7 +50,7 @@ const ContactOne = () => {
               </div>
 
               <div>
-                <form action="" method="POST" className="mt-8">
+                <form action="" method="POST" className="mt-8" onClick={handleSubmit}>
                   <div className="w-full flex justify-center items-center">
                     <div className="mb-5 md:w-10/12 w-full">
                       <label
@@ -121,7 +124,7 @@ const ContactOne = () => {
 
                   <div className="w-full flex justify-center items-center">
                     <div className="mb-5 md:w-8/12 w-full">
-                      <button className="hover:shadow-form rounded-3xl bg-colorFour hover:bg-colorFour transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-white outline-none">
+                      <button type="submit" className="hover:shadow-form rounded-3xl bg-colorFour hover:bg-colorFour transition duration-1000 ease-in-out py-3 px-12 text-base font-semibold text-white outline-none">
                         Submit
                       </button>
                     </div>
