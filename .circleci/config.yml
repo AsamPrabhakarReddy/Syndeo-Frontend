@@ -16,9 +16,6 @@ jobs:
           name: Install Dependencies
           command: npm install
       - run:
-          name: Check Vitest Installation
-          command: npx vitest --version
-      - run:
           name: Run Tests
           command: npm run test
       - run:
