@@ -15,5 +15,15 @@ export default defineConfig({
       legalComments: 'none', // Remove comments from minified files
       minify: true, // Minification settings
     },
+     test: {
+    environment: 'jsdom',
+    setupFiles: '', // Optional for jest-dom matchers
+    globals: true,
+  },
+  },
+  test: {
+    environment: 'jsdom',
+    setupFiles: '', // Optional for jest-dom matchers
+    globals: true,
   },
 });
