@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:18-browsers  # Change to Node.js 18-browsers image
+      - image: node:18  # Use the official Node.js 18 image
     steps:
       - checkout
       - run:
@@ -24,8 +24,8 @@ jobs:
       - run:
           name: Install AWS CLI
           command: |
-            sudo apt-get update
-            sudo apt-get install -y awscli
+            apt-get update
+            apt-get install -y awscli
       - run:
           name: Sync to S3
           command: |
