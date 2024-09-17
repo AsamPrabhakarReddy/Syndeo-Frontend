@@ -2,6 +2,14 @@ import Lottie from "lottie-react";
 import Calendar from "../assets/lotties/Calendar.json";
 
 const AboutTwo = () => {
+  const optionsDefault = {
+    loop:true,
+    autoplay:true,
+    animationData:Calendar,
+    rendererSettings: {
+        preserveAspectRatio: "xMidYMid slice"
+      }
+}
   return (
     <div className="bg-white">
       <div className="relative pt-8 pb-8">
@@ -17,8 +25,7 @@ const AboutTwo = () => {
                   className="rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] overflow-hidden"
                 ></Image> */}
                 <Lottie
-                  animationData={Calendar}
-                  loop={true}
+                   options={optionsDefault}
                   className="w-[600px] h-[400px]"
                 />
               </div>

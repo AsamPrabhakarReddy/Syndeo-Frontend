@@ -4,9 +4,9 @@ import Navbar from "../components/Navbar";
 const Privacy = () => {
   return (
     <div>
-      <Navbar />
+      <div data-testid="navbar"><Navbar /></div>
 
-      <div className="relative pt-20 pb-4">
+      <div role="privacy" className="relative pt-20 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
             <div className="justify-center w-full">

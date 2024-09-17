@@ -6,6 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 import { expect } from "vitest";
 import '@testing-library/jest-dom';
 
+// Checking Navigation 
+
 describe("Testing Navbar with JEST", ()=>{
 
     //Checking title is present or not 
@@ -29,16 +31,15 @@ describe("Testing Navbar with JEST", ()=>{
         </BrowserRouter>
         )
 
-        const TitleText = screen.getAllByText('SYNDÈO.')
-        expect(TitleText.length).toBeGreaterThan(0)
+    
 
         const HomeText = screen.getAllByText('Home');
         expect(HomeText.length).toBeGreaterThan(0);
 
-        const AboutUsText = screen.getAllByText('Home');
+        const AboutUsText = screen.getAllByText('About Us');
         expect(AboutUsText.length).toBeGreaterThan(0);
 
-        const ContactText = screen.getAllByText('Home');
+        const ContactText = screen.getAllByText('Contact');
         expect(ContactText.length).toBeGreaterThan(0);
         
         const loginAndRegister = screen.getAllByText('Login / Register');

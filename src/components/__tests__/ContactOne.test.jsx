@@ -21,10 +21,33 @@ describe("ContactOne form whether input forms", ()=>{
 
     })
 
+    // Checking All Label Names 
+
+    it("Checking All Label Names present or not", ()=>{
+        render(<ContactOne/>)
+
+        
+
+        const fullNameLabel = screen.getByLabelText('Full Name');
+        expect(fullNameLabel).toBeInTheDocument()
+
+        const emailLabel = screen.getByLabelText('Email Address');
+        expect(emailLabel).toBeInTheDocument()
+
+        const subjectLabel = screen.getByLabelText('Subject')
+        expect(subjectLabel).toBeInTheDocument()
+
+        const messageLabel = screen.getByLabelText('Message')
+        expect(messageLabel).toBeInTheDocument()
+
+    })
+
     // Checking All Input Fields present or not
 
     it("Checking All Input Fields present or not", ()=>{
         render(<ContactOne/>)
+
+
 
         const fullName = screen.getByPlaceholderText('Your Full Name');
         expect(fullName).toBeInTheDocument()
